@@ -6,3 +6,6 @@ Changelog
 
 - Initial commit
   [svx]
+
+- Add logo for testing
+  [svx]
