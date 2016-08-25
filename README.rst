@@ -4,6 +4,10 @@ vmd.error-sites
 
 Custom 404, 503 and maintenance pages for milieudefensie
 
+
+.. image:: docs/_static/screen_vmd_404.png
+   :alt: Screenshot of 404 page
+
 Features
 --------
 
