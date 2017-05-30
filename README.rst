@@ -13,7 +13,7 @@ Features
 
 - Responsive 
 - Easy
-
+- Custom DuckDuckGo Search
 
 
 Documentation
