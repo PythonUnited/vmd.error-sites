@@ -1,0 +1,373 @@
+
+.plain.error-page-wrapper {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #6355bc;
+    padding: 0 5%;
+    position: relative;
+}
+
+.plain.error-page-wrapper .content-container {
+    -webkit-transition: left .5s ease-out, opacity .5s ease-out;
+    -moz-transition: left .5s ease-out, opacity .5s ease-out;
+    -ms-transition: left .5s ease-out, opacity .5s ease-out;
+    -o-transition: left .5s ease-out, opacity .5s ease-out;
+    transition: left .5s ease-out, opacity .5s ease-out;
+    max-width: 400px;
+    position: relative;
+    left: -30px;
+    opacity: 0;
+}
+
+.plain.error-page-wrapper .content-container.in {
+    left: 0px;
+    opacity: 1;
+}
+
+.plain.error-page-wrapper .head-line {
+    transition: color .2s linear;
+    font-size: 48px;
+    line-height: 60px;
+    color: rgba(255, 255, 255, .2);
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+}
+
+.plain.error-page-wrapper .subheader {
+    transition: color .2s linear;
+    font-size: 36px;
+    line-height: 46px;
+    color: #fff;
+}
+
+.plain.error-page-wrapper hr {
+    height: 1px;
+    background-color: rgba(255, 255, 255, .2);
+    border: none;
+    width: 250px;
+    margin: 35px 0;
+}
+
+.plain.error-page-wrapper .context {
+    transition: color .2s linear;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.plain.error-page-wrapper .context p {
+    margin: 0;
+}
+
+.plain.error-page-wrapper .context p:nth-child(n+2) {
+    margin-top: 12px;
+}
+
+.plain.error-page-wrapper .buttons-container {
+    margin-top: 45px;
+    overflow: hidden;
+}
+
+.plain.error-page-wrapper .buttons-container a {
+    transition: color .2s linear, border-color .2s linear;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 99px;
+    padding: 8px 30px 9px;
+    display: inline-block;
+    float: left;
+}
+
+.plain.error-page-wrapper .buttons-container a:hover {
+    background-color: rgba(255, 255, 255, .05);
+}
+
+.plain.error-page-wrapper .buttons-container a:first-child {
+    margin-right: 25px;
+}
+
+@media screen and (max-width: 485px) {
+    .plain.error-page-wrapper .header {
+        font-size: 36px;
+    }
+
+    .plain.error-page-wrapper .subheader {
+        font-size: 27px;
+        line-height: 38px;
+    }
+
+    .plain.error-page-wrapper hr {
+        width: 185px;
+        margin: 25px 0;
+    }
+
+    .plain.error-page-wrapper .context {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .plain.error-page-wrapper .buttons-container {
+        margin-top: 35px;
+    }
+
+    .plain.error-page-wrapper .buttons-container a {
+        font-size: 13px;
+        padding: 8px 0 7px;
+        width: 45%;
+        text-align: center;
+    }
+
+    .plain.error-page-wrapper .buttons-container a:first-child {
+        margin-right: 10%;
+    }
+}
+
+.background-color {
+    background-color: #F6F5F1 !important;
+}
+
+.primary-text-color {
+    color: #4FB047 !important;
+}
+
+.secondary-text-color {
+    color: #00564D !important;
+}
+
+.third-text-color {
+    color: #6B6364 !important;
+}
+
+.border-button {
+    color: #4FB047 !important;
+    border-color: #4FB047 !important;
+}
+
+.button {
+    background-color: #FFFFFF !important;
+    color: !important;
+}
+
+/******************************************************************
+  * LAYOUT
+  *******************************************************************/
+body {
+    background: #F6F5F1;
+}
+
+#wrapper {
+    width: 250px;
+    /*height: 0;*/
+}
+
+h1 {
+    color: #ccc;
+    font-family: Monospace, Helvetica, Arial;
+    margin: 30px auto 0px auto !important;
+    text-align: center;
+    font-size: 52px;
+}
+
+/**************************************************
+** CSS Animations
+***************************************************/
+
+@keyframes Wak {
+    0% {
+        opacity: 0
+    }
+    96% {
+        opacity: 0
+    }
+    98% {
+        opacity: 1
+    }
+
+}
+
+@keyframes Penguin_1_lijf {
+    50% {
+        transform: scale(1);
+        -ms-transform: scale(1);
+        webkit-transform: scale(1)
+    }
+    /** 75%  {transform: translateX(50px); transform:rotate(-90deg);} **/
+    65% {
+        transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        webkit-transform: scale(1.1)
+    }
+    85% {
+        transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        webkit-transform: scale(1.1);
+        opacity: 1;
+    }
+    90% {
+        transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        webkit-transform: scale(1.1);
+        opacity: 0;
+    }
+    95% {
+        transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        webkit-transform: scale(1);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        webkit-transform: scale(1));
+        opacity: 0;
+    }
+}
+
+@keyframes Penguin_1b {
+    0% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    88% {
+        opacity: 0;
+    }
+    92% {
+        opacity: 1;
+        transform: translatey(30px)
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes Penguin_2_arm1 {
+    0% {
+        opacity: 1
+    }
+    82% {
+        opacity: 1
+    }
+    85% {
+        opacity: 0
+    }
+    90% {
+        opacity: 1
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes Penguin_2_arm {
+    0% {
+        opacity: 0
+    }
+    82% {
+        opacity: 0
+    }
+    85% {
+        opacity: 1
+    }
+    90% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes Druppels_1 {
+    0% {
+        opacity: 0
+    }
+    80% {
+        opacity: 0
+    }
+    82% {
+        opacity: 1
+    }
+    84% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes Druppels_2 {
+    0% {
+        opacity: 0
+    }
+    90% {
+        opacity: 0
+    }
+    98% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes Penguin_2b {
+    0% {
+        opacity: 1
+    }
+    99% {
+        opacity: 1
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.Wak {
+    animation: Wak 1s linear forwards;
+
+}
+
+.Penguin_1_lijf {
+    animation: Penguin_1_lijf 2s linear forwards;
+
+}
+
+.Penguin_2_arm {
+    animation: Penguin_2_arm 2s linear forwards;
+}
+
+.Penguin_2_arm1 {
+    animation: Penguin_2_arm1 2s linear forwards;
+
+}
+
+.Penguin_2_lijf {
+    animation: Penguin_2_lijf 2s linear forwards;
+
+}
+
+.Penguin_2b {
+    animation: Penguin_2b 2s linear forwards;
+
+}
+
+.Penguin_1b {
+    animation: Penguin_1b 2s linear forwards;
+
+}
+
+.Druppels_1 {
+    animation: Druppels_1 2.1s linear forwards;
+
+}
+
+.Druppels_2 {
+    animation: Druppels_2 2.1s linear forwards;
+
+}
