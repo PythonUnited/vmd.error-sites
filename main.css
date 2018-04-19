@@ -147,7 +147,6 @@
 
 .button {
     background-color: #FFFFFF !important;
-    color: !important;
 }
 
 /******************************************************************
@@ -164,7 +163,7 @@ body {
 
 h1 {
     color: #ccc;
-    font-family: Monospace, Helvetica, Arial;
+    font-family: Monospace, Helvetica, Arial, sans-serif;
     margin: 30px auto 0px auto !important;
     text-align: center;
     font-size: 52px;
@@ -191,36 +190,36 @@ h1 {
     50% {
         transform: scale(1);
         -ms-transform: scale(1);
-        webkit-transform: scale(1)
+        -webkit-transform: scale(1)
     }
     /** 75%  {transform: translateX(50px); transform:rotate(-90deg);} **/
     65% {
         transform: scale(1.1);
         -ms-transform: scale(1.1);
-        webkit-transform: scale(1.1)
+        -webkit-transform: scale(1.1)
     }
     85% {
         transform: scale(1.1);
         -ms-transform: scale(1.1);
-        webkit-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
         opacity: 1;
     }
     90% {
         transform: scale(1.1);
         -ms-transform: scale(1.1);
-        webkit-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
         opacity: 0;
     }
     95% {
         transform: scale(1.1);
         -ms-transform: scale(1.1);
-        webkit-transform: scale(1);
+        -webkit-transform: scale(1);
         opacity: 0;
     }
     100% {
         transform: scale(1.1);
         -ms-transform: scale(1.1);
-        webkit-transform: scale(1));
+        -webkit-transform: scale(1);
         opacity: 0;
     }
 }
