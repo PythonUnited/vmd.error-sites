@@ -1,0 +1,194 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+//colors
+$color_blue_violet_approx: #6355bc;
+$white_20: rgba(255, 255, 255, .2);
+$white: #fff;
+$white_5: rgba(255, 255, 255, .05);
+$color_spring_wood_approx: #f6f5f1;
+$color_apple_approx: #4fb047;
+$color_evening_sea_approx: #00564d;
+$color_scorpion_approx: #6b6364;
+$color_celeste_approx: #ccc;
+
+//fonts
+$font_0: Lato;
+$font_1: Verdana;
+$font_2: sans-serif;
+$font_4: Taca;
+
+@media screen and(max-width: 485px) {
+  .plain.error-page-wrapper {
+    .header {
+      font-size: 36px;
+    }
+    .subheader {
+      font-size: 27px;
+      line-height: 38px;
+    }
+    hr {
+      width: 185px;
+      margin: 25px 0;
+    }
+    .context {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .buttons-container {
+      margin-top: 35px;
+      a {
+        font-size: 13px;
+        padding: 8px 0 7px;
+        width: 45%;
+        text-align: center;
+        &:first-child {
+          margin-right: 10%;
+        }
+      }
+    }
+  }
+}
+
+.background-color {
+  background-color: $color_spring_wood_approx !important;
+}
+
+.primary-text-color {
+  color: $color_apple_approx !important;
+}
+
+.secondary-text-color {
+  color: $color_evening_sea_approx !important;
+}
+
+.third-text-color {
+  color: $color_scorpion_approx !important;
+}
+
+.border-button {
+  color: $color_apple_approx !important;
+  border-color: $color_apple_approx !important;
+}
+
+.button {
+  background-color: $white !important;
+}
+
+body {
+  background: $color_spring_wood_approx;
+  #wrapper {
+    width: 250px;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.plain.error-page-wrapper {
+  font-family: $font_0, $font_1;
+  font-size: 2.2rem;
+  background-color: $color_blue_violet_approx;
+  padding: 0 5%;
+  position: relative;
+  .content-container {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    max-width: 550px;
+    position: relative;
+    left: -30px;
+    margin-bottom: 2rem;
+    .logo {
+      margin-left: -1.5rem;
+    }
+    input {
+      font-family: $font_0, $font_1;
+      margin: .5rem 0;
+      display: block;
+      width: 100%;
+      padding: 5px 12px;
+      font-size: 18px;
+      line-height: 18px;
+      color: #666;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .search {
+      position: relative;
+      margin-top: 1rem;
+      max-width: 400px;
+    }
+    .search .fa-search {
+      position: absolute;
+      top: 1px;
+      right: 0;
+      font-size: 20px;
+      background-color: $color_apple_approx;
+      padding: 6px;
+      color: #fff;
+      border-radius: 0 5px 5px 0;
+    }
+  }
+  .head-line {
+    transition: color .2s linear;
+    font-size: 48px;
+    line-height: 60px;
+    color: $white_20;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+  }
+  .subheader {
+    transition: color .2s linear;
+    font-size: 36px;
+    line-height: 46px;
+    color: $white;
+  }
+  hr {
+    height: 1px;
+    background-color: $white_20;
+    border: none;
+    width: 250px;
+    margin: 35px 0;
+  }
+  .context {
+    transition: color .2s linear;
+    font-size: 18px;
+    line-height: 27px;
+    color: $white;
+    p {
+      margin: 0;
+      &:nth-child(n + 2) {
+        margin-top: 12px;
+      }
+    }
+  }
+  .buttons-container {
+    margin: 2rem 0;
+    overflow: hidden;
+    a {
+      transition: color .2s linear, border-color .2s linear;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $white;
+      border: 2px solid $white;
+      border-radius: 99px;
+      padding: 8px 30px 9px;
+      display: inline-block;
+      float: left;
+      &:hover {
+        background-color: $white_5;
+      }
+      &:first-child {
+        margin-right: 25px;
+      }
+    }
+  }
+}

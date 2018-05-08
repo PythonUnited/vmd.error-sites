@@ -1,0 +1,139 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@media screen and (max-width: 485px) {
+  .plain.error-page-wrapper .header {
+    font-size: 36px; }
+  .plain.error-page-wrapper .subheader {
+    font-size: 27px;
+    line-height: 38px; }
+  .plain.error-page-wrapper hr {
+    width: 185px;
+    margin: 25px 0; }
+  .plain.error-page-wrapper .context {
+    font-size: 16px;
+    line-height: 24px; }
+  .plain.error-page-wrapper .buttons-container {
+    margin-top: 35px; }
+    .plain.error-page-wrapper .buttons-container a {
+      font-size: 13px;
+      padding: 8px 0 7px;
+      width: 45%;
+      text-align: center; }
+      .plain.error-page-wrapper .buttons-container a:first-child {
+        margin-right: 10%; } }
+.background-color {
+  background-color: #f6f5f1 !important; }
+
+.primary-text-color {
+  color: #4fb047 !important; }
+
+.secondary-text-color {
+  color: #00564d !important; }
+
+.third-text-color {
+  color: #6b6364 !important; }
+
+.border-button {
+  color: #4fb047 !important;
+  border-color: #4fb047 !important; }
+
+.button {
+  background-color: #fff !important; }
+
+body {
+  background: #f6f5f1; }
+  body #wrapper {
+    width: 250px; }
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-30px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0);
+    opacity: 1; } }
+.plain.error-page-wrapper {
+  font-family: Lato, Verdana;
+  font-size: 2.2rem;
+  background-color: #6355bc;
+  padding: 0 5%;
+  position: relative; }
+  .plain.error-page-wrapper .content-container {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    max-width: 550px;
+    position: relative;
+    left: -30px;
+    margin-bottom: 2rem; }
+    .plain.error-page-wrapper .content-container .logo {
+      margin-left: -1.5rem; }
+    .plain.error-page-wrapper .content-container input {
+      font-family: Lato, Verdana;
+      margin: .5rem 0;
+      display: block;
+      width: 100%;
+      padding: 5px 12px;
+      font-size: 18px;
+      line-height: 18px;
+      color: #666;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px; }
+    .plain.error-page-wrapper .content-container .search {
+      position: relative;
+      margin-top: 1rem;
+      max-width: 400px; }
+    .plain.error-page-wrapper .content-container .search .fa-search {
+      position: absolute;
+      top: 1px;
+      right: 0;
+      font-size: 20px;
+      background-color: #4fb047;
+      padding: 6px;
+      color: #fff;
+      border-radius: 0 5px 5px 0; }
+  .plain.error-page-wrapper .head-line {
+    transition: color .2s linear;
+    font-size: 48px;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 0.2);
+    letter-spacing: -1px;
+    margin-bottom: 5px; }
+  .plain.error-page-wrapper .subheader {
+    transition: color .2s linear;
+    font-size: 36px;
+    line-height: 46px;
+    color: #fff; }
+  .plain.error-page-wrapper hr {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    width: 250px;
+    margin: 35px 0; }
+  .plain.error-page-wrapper .context {
+    transition: color .2s linear;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff; }
+    .plain.error-page-wrapper .context p {
+      margin: 0; }
+      .plain.error-page-wrapper .context p:nth-child(n + 2) {
+        margin-top: 12px; }
+  .plain.error-page-wrapper .buttons-container {
+    margin: 2rem 0;
+    overflow: hidden; }
+    .plain.error-page-wrapper .buttons-container a {
+      transition: color .2s linear, border-color .2s linear;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #fff;
+      border: 2px solid #fff;
+      border-radius: 99px;
+      padding: 8px 30px 9px;
+      display: inline-block;
+      float: left; }
+      .plain.error-page-wrapper .buttons-container a:hover {
+        background-color: rgba(255, 255, 255, 0.05); }
+      .plain.error-page-wrapper .buttons-container a:first-child {
+        margin-right: 25px; }
+
+/*# sourceMappingURL=main.css.map */

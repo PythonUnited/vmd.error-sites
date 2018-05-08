@@ -8,13 +8,6 @@ Custom 404, 503 and maintenance pages for milieudefensie
 .. image:: docs/_static/screen_vmd_404.png
    :alt: Screenshot of 404 page
 
-Features
---------
-
-- Responsive 
-- Easy
-- Custom DuckDuckGo Search
-
 
 Documentation
 -------------
@@ -29,11 +22,13 @@ Just clone it to the place where you want it for example */srv/www/*
 
 .. code-block::
 
-	$ cd /srv/www
-	$ git clone https://github.com/milieudefensie/vmd.error-sites.git
+   $ cd /srv/www
+   git clone https://github.com/milieudefensie/vmd.error-sites.git
 
 
-Make sure that the file is readable for your webserver user [www-data for example]
+Make sure that the file is readable for your webserver user [www-data for
+example]. Don't forget to compile the scss files to css using your favourite
+tool.
 
 
 Contribute
